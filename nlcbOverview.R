@@ -8,11 +8,11 @@ library(ggplot2)
 ########
 
 ## DATA
-df <- read.table("/Users/anne_heidi/PhD_mac/Sammenligninger/ah/lungcancer/data/TEMP_nlcbPlusSpss.txt", header =TRUE, stringsAsFactors = FALSE)
+df <- read.table("/Users/anne_heidi/PhD_mac/lungcancer/data/TEMP_nlcbPlusSpss.txt", header =TRUE, stringsAsFactors = FALSE)
 ########
 
 ## RESULTS
-mainDir <- "/Users/anne_heidi/PhD_mac/Sammenligninger/ah/lungcancer/results/figs/"
+mainDir <- "/Users/anne_heidi/PhD_mac/lungcancer/results/figs/"
 subDir <- "overview/temp/"
 path <- as.character(paste0(mainDir, subDir))
 
