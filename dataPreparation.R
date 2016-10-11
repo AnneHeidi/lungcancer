@@ -7,9 +7,9 @@
 ########
 
 ## DATA
-spss <- read.table("/Users/anne_heidi/PhD_mac/Sammenligninger/ah/lungcancer/data/NLCB_2016_spss.dat", sep = "\t", header =TRUE, quote = "", stringsAsFactors = FALSE)
-mb <- read.table("/Users/anne_heidi/PhD_mac/Sammenligninger/ah/lungcancer/data/myblock.txt", header=TRUE, stringsAsFactors = FALSE)
-xls <- read.table("/Users/anne_heidi/PhD_mac/Sammenligninger/ah/lungcancer/data/NLCB_2016_R2.txt", stringsAsFactors = FALSE, header = TRUE)
+spss <- read.table("/Users/anne_heidi/PhD_mac/lungcancer/data/NLCB_2016_spss.dat", sep = "\t", header =TRUE, quote = "", stringsAsFactors = FALSE)
+mb <- read.table("/Users/anne_heidi/PhD_mac/lungcancer/data/myblock.txt", header=TRUE, stringsAsFactors = FALSE)
+xls <- read.table("/Users/anne_heidi/PhD_mac/lungcancer/data/NLCB_2016_R2.txt", stringsAsFactors = FALSE, header = TRUE)
 ########
 
 ## Bearbeider spss: 
